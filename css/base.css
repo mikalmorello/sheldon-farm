@@ -1,0 +1,847 @@
+/*
+-----------------------------------------------
+Sheldon Farm Baskets Base Style Sheet
+Author:   Mikal Morello (Micagrafica.com)
+Date:     25 September 2009
+----------------------------------------------- */
+
+
+/* ---------------------- =BODY STYLES */
+body {
+    position: relative;
+	background-image: url('../images/background_wood.jpg');
+	background-position: top; 
+	text-align: center; /* for IE */
+}
+.bg{
+    position: relative;
+	background-image: url('../images/background_wood_smalllight2.jpg');
+	background-repeat:no-repeat;
+	background-position: top; 
+	top: -7px;
+}
+.bg404{
+    position: relative;
+	background-image: url('../images/background_wood_smalllight404.jpg');
+	background-repeat:no-repeat;
+	background-position: top; 
+	top: -7px;
+}
+a img {
+	border: none;
+} 
+a:visited {
+  color: inherit;
+}
+a:link {
+    color: inherit;
+}
+
+ img {
+   padding: 5px 15px 5px 15px;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #873530;
+	font-family: Arial, sans-serif;
+	padding: 0 35px 0 20px;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #616367;
+	font-family: Arial, sans-serif;
+	padding: 0 10px 0 35px;
+}
+h3 {
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #616367;
+	font-family: Arial, sans-serif;
+	padding: 0 10px 0 25px;
+}
+h4 {
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #873530;
+	font-family: arial;
+	padding: 0 10px 0 25px;
+}
+
+ p {
+	font-family: Arial, sans-serif;
+	color: #616367;
+	font-size: .9em;
+	padding: 0 45px 0 45px;
+	line-height: 18px;
+}
+
+
+/* ---------------------- =MASTHEAD STYLES */
+#masthead a {
+	background: url('../images/masthead_main.png'); 
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+	width:1139px;
+	height:206px;
+    text-decoration: none;
+    padding-top:0px; 
+	display: block;
+}
+
+#masthead a span {
+  visibility: hidden;
+}
+
+#homelink {
+	display: block;
+	}
+	
+	
+	
+/* ---------------------- =CONTAINER */
+div#wrapper {
+    text-align:left; /* reset text alignment */
+    width: 100%; /* or a percentage, or whatever */
+    margin:0 auto; /* for the rest */
+
+} 
+
+#containertop {
+    background: url('../images/container_top.png'); 
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+	width:920px;
+	height:26px;
+    padding-top:0px;
+	}
+	
+#container {
+    background-image: url('../images/container_main_bg.png');
+	width:920px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left; 
+	min-height:375px;
+	padding: 0;
+	font-family: Arial, sans-serif; 
+}
+
+
+#containerbottom {
+    background: url('../images/container_bottom.png'); 
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+	width:920px;
+	height:62px;
+    padding-top:0px;
+}
+
+/* ---------------------- =FOOTER  */
+#footer {
+	width: 900px;
+	text-align: left;
+	margin: 0px auto;
+	
+}
+#footer a {
+	text-decoration: underline;
+	color: #ffffff;
+
+}
+#footer p {
+	font-weight: bold;
+	font-size: 0.6em;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-family: Arial, sans-serif;
+	padding: 0 10px 0 25px;
+
+}
+
+#footer a:hover {
+	color: #782725;
+}
+
+
+/* ---------------------- =NAVIGATION */
+
+
+ol#toc {
+    position: relative;
+	height: 63px;
+	left: 33px;
+	list-style: none;
+	margin: 0;
+	padding: 0 0 0 0px;
+	text-align: left; 
+    width: 967px;
+    margin:0 auto;
+	font-size: 15px;
+	color: #3f172f;
+	font-family: Georgia;
+	font-weight: bold;
+
+}
+
+ ol#toc a {
+    display:block;
+	background: url('../images/tabs.png') 0 0 no-repeat;
+	height: 63px;
+	width: 146px;
+	float: left;
+	line-height: 104px;
+	padding: 0 0 0 0px;
+	outline: none;
+	color: #3f172f;
+	text-decoration: none;
+	text-indent: 47px;
+	
+}
+
+ol#toc li.current {
+	background-position: 0 -63px;
+}
+
+ol#toc li.current a {
+	background-position: 100% -63px ;
+	line-height: 65px;
+	text-indent: 47px;
+	
+}
+
+ol#toc li {
+	background:  url('../images/tabs.png');
+	float: left;
+	margin: 0 0px 0 0;
+	padding-left: 0px;
+}
+/* ---------------------- =NAVIGATION SELECTED CART */
+
+
+ol#toc  .currenttab {
+	height: 63px;
+	list-style: none;
+	margin: 0;
+	padding: 0 0 0 0px;
+	text-align: left; 
+    width: 235px; 
+    margin:0 auto;
+}
+
+ ol#toc a.currenttab {
+    display:block;
+	background: url('../images/tabs_cart.png') 0 0 no-repeat;
+	height: 63px;
+	width: 235px;
+	float: left;
+	line-height: 63px;
+	outline: none;
+	text-decoration: none;
+}
+	
+ol#toc li.currenttab {
+	background-position: 0 -63px;
+}
+
+ol#toc li.currenttab a {
+	background-position: 100% -63px;
+	line-height: 65px;
+	text-indent: 60px;
+
+	}
+	
+ol#toc li.currenttab {
+	background:  url('../images/tabs_cart.png');
+	float: left;
+	margin: 0 0px 0 0;
+	padding-left: 0px;
+}
+	/* ---------------------- =NAVIGATION UNSELECTED CART */
+div#wrapper2 {
+	position: relative;
+    text-align: left; 
+    width: 1139px; 
+	margin: 0 auto;
+	height: 100%;
+}
+	
+/*.tag{
+     position: relative;
+	 top: 269px;
+	 left: -33px;
+     background: url('../images/mycart_tag.png')  0 0 no-repeat;
+	 height: 358px;
+	 width: 88px;
+	 float: right;
+	 padding: 0 0 0 0;
+}*/
+
+.tagselected{
+	 position: relative;
+	 top: 269px;
+	 left: -33px;
+     background: url('../images/mycart_tag_selected.png')  0 0 no-repeat;
+	 height: 331px;
+	 width: 88px;
+	 float: right;
+	 padding: 0 0 0;
+}
+	
+ol#toc .tab {
+	height: 63px;
+	list-style: none;
+	margin: 0;
+	padding: 0 0 0 0px;
+	text-align: left; 
+    width: 235px; 
+    margin:0 auto;
+}
+
+ ol#toc a.tab {
+    display:block;
+	background: url('../images/tabs_cart.png') 0 0 no-repeat;
+	height: 63px;
+	width: 235px;
+	float: left;
+	line-height: 100px;
+	outline: none;
+	text-decoration: none;
+	text-indent: 60px;
+}
+	
+	
+ol#toc li.tab {
+	background:  url('../images/tabs_cart.png');
+	float: left;
+	margin: 0 0px 0 0;
+	padding-left: 0px;
+	}
+	
+	
+	/* ---------------------- =CONTAINER HOMEPAGE CONTENT*/
+
+.home p{
+    font-family: Arial, sans-serif;
+	color: #616367;
+	font-size: .9em;
+	padding: 0 10px 0 25px;
+	line-height: 18px;
+}
+
+.hometitle{
+    background: url('../images/home_content_title.png');
+	width:878px;
+	float:left;
+	margin:0px 0px 0px 0px;
+	height:79px;   
+	padding-left:0px;
+	padding-top:0px;
+}
+.minisectionspacer{
+	width:13px;
+	float:left;
+	margin:0px 0px 0px 0px;
+	min-height:1px;
+	padding-left:0px;
+	padding-top:0px;
+}
+.minisection{
+    background: url('../images/content_mini_section.png');
+	width:298px;
+	float:left;
+	margin:0px 0px 0px 0px;
+	height:241px;   
+	padding-left:0px;
+	padding-top:0px;
+}
+.minisection img {
+	margin:10px 0px 0px 0px;
+}
+
+.minisection  p { 
+	padding: 0 30px 0 30px;
+}
+.minisection p.artist {
+	color: #873530;
+}
+.minisection p.featured {
+	color: #5a5e42;
+	padding: 0 5px 0 5px;
+}
+.minisection p.newsletter {
+	color: #3f172f;
+}
+.artistlink a {
+	color: #fff;
+	text-decoration: underline;
+	font-weight: bold;
+
+}
+
+.artistlink {
+    background: url('../images/minisection_link_abouttheartist.jpg') 0 0 no-repeat;
+	width: 125px;
+	height: 32px;
+	margin:0px 0px 0px 25px;
+	padding: 6px 0 0 25px;
+
+}
+
+.saleimage{
+    width:179px;
+	padding: 5px 0px 0px 360px;
+	position:relative; top:-83px; 
+	height: 1px;
+}
+.featured {
+   background-color:#fff ;
+   width: 85% ;
+   height: 65%;
+   margin:0px 0px 0px 22px;
+   padding: 0 0 0 0;
+   text-align: center;
+   font-size: 16px;
+   font-weight: bold;
+}
+#subpage-wrap a{
+    color: #3f172f;
+}
+
+	/* ---------------------- =SUBPAGE CONTENT*/
+.subpagetitle{
+    background: url('../images/subpage_content_title.png') 0 0 no-repeat; 
+	width:878px;
+	float:left;
+	margin:0px 0px 0px 0px;
+	height:79px;   
+	padding-left: 20px;
+	padding-top: 15px;
+}
+#subpage-wrap {
+    float: left ;
+	width: 596px;
+	padding: 0px 0px 0px 20px;
+	margin: 5px 0px 0px 20px;
+	background-color: #fff;
+}
+#subpage-wrap img{
+    margin: 0 0 0 -30px;
+}
+
+	/* ---------------------- =SITE POLICY CONTENT*/
+ul.policy{
+	padding: 0 35px 0 120px;
+	font-weight: bold;
+}
+.policy 	a{
+   color: #782725;
+}
+	/* ---------------------- =SITEMAP CONTENT*/
+ul.sitemap{
+	padding: 0 35px 0 70px;
+	font-size: 13px;
+}
+.sitemap 	a{
+   color: #782725;
+}
+.sitemap li{
+   margin: 0 0 0 100px;
+}
+	/* ---------------------- =SHOPPING CART CONTENT*/
+
+#rightwrapper {
+	float: right;
+		margin:0px 15px 0px 0px;
+}
+#leftwrapper {
+	float: left;
+	margin:0px 0px 0px 25px;
+}
+/* shipping top*/
+.rightnavtop {
+    width: 263px;
+	height: 118px ;
+    background: url('../images/shoppingcart_right_top.jpg');
+}	
+/* contacttop*/
+.rightnavtop2 {
+    width: 263px;
+	height: 118px ;
+    background: url('../images/contact_right_top.jpg');
+}
+/* baskettop*/
+.rightnavtop3{
+    width: 263px;
+	height: 118px ;
+    background: url('../images/baskets_right_top.jpg');
+}
+/* aboutustop*/
+.rightnavtop4{
+    width: 263px;
+	height: 57px ;
+    background: url('../images/aboutus_right_top.jpg');
+}
+.rightnav {
+   width: 263px;
+   background: url('../images/shoppingcart_right_center.jpg'); 
+   vertical-align: top;
+   min-height: 400px;
+}
+
+.rightnavbottom {
+   width: 263px;
+   height: 150px;
+   background: url('../images/shoppingcart_right_bottom.jpg'); 
+   vertical-align: top;
+   padding: 0 0 0 0;
+}
+.lefttitle {
+   width: 606px;
+   padding:4px 0 0 0;
+   font-weight: bold;
+   color: #6f4d07;
+}
+.lefttitle img{
+   float: right;
+   position:relative;
+   padding:0 0 0 0;
+   margin:-2px -5px 0 0;
+}
+.lefttitle a{
+   color: #603d3f;
+}
+
+.leftcontent {
+   background-color:#FFFFFF;
+   width: 606px;
+   height:44px;
+   margin:0px 0 14px 0;
+}
+
+.rightnav ul{
+   padding:0 0 0 50px;
+   text-align: left;
+   color: #603d3f;
+   font-family: georgia;
+   font-size: 1.2em;
+}
+.rightnav img{
+position:relative;
+padding:0 30px 0 0;
+margin: 0 0 0 -15px;
+}
+	/* ---------------------- =SHOPPING CART CATEGORY*/
+	
+.category {
+   background-color:#FFFFFF;
+   width: 606px;
+   height:167px;
+   border-style:solid;
+   border-width:1px;
+   border-color: #efe4ca;
+   padding:0 0 0 0;
+   margin:0 0 0 0;
+}
+.categorylink {
+   background: url('../images/shoppingcart_category_link.gif') 0 0 no-repeat;
+   width: 173px;
+   height: 32px;
+   margin:-18px 0 10px 433px;
+   padding: 5px 0 0 0;
+
+   position:relative;
+   text-align: right;
+}
+.category p{ 
+   padding:10px 15px 0 15px;
+   margin:0 0 0 0;
+   font-family: georgia;
+   font-size: 1.2em;
+   color: #6f4d07;
+}
+
+.categorylink a{
+   color: #fff;
+   font-weight: bold;
+   font-size: 1em;
+}
+
+.category a{
+   color: #654143;
+}
+
+	/* ---------------------- =SHOPPING CART PRODUCTS*/
+.products {
+   background-color:#FFFFFF;
+   width: 606px;
+   height:100%;
+   border-style:solid;
+   border-width:1px;
+   border-color: #efe4ca;
+   padding:0 0 0 0;
+   margin:0 0 0 0;
+}	
+.products p{ 
+   padding:6px 15px 0 15px;
+   margin:0 0 0 0;
+   font-family: georgia;
+   font-size: 1.2em;
+   color: #6f4d07;
+}
+.products a{
+   color: #654143;
+}
+.productpreview {
+   float:left;
+   width: 290px;
+}
+.productpreview p{
+   font-family: arial;  
+   font-size: 14px;
+   color: #64684d;
+   font-weight: bold;
+}
+
+.productpreview  img{
+   padding: 0 0 0 0;
+   margin: -8px 0 0 0;
+}
+.horizontaldivider {
+   background: url('../images/shoppingcart_products_horizontaldivider_small.jpg') 0 0;
+   width: 92%;
+   height: 9px;
+   margin:20px 20px 20px 20px;
+}
+.verticaldivider {
+   float:left;
+   background: url('../images/shoppingcart_products_verticaldivider_small.jpg') 0 0;
+   width: 8px;
+   height: 174px;
+   margin:3px 3px 3px 3px;
+}
+.selectproductlink {
+   background: url('../images/shoppingcart_products_selectproduct.gif') 0 0 no-repeat;
+   width: 117px;
+   height: 32px;
+   margin:0 0 0 9px;
+   float: left;
+   text-align: right;
+}
+.whitelink a{
+   color: #fff;
+   font-weight: bold;
+   font-size: 12px;
+   margin: 0 0 0 0;
+}
+.producttitle {
+   font-size: 18px;
+}
+
+ul.pagenav {
+   list-style: none;
+   margin: 0;
+   padding: 0 15px 0 15px;
+   overflow: hidden;
+}
+
+.previous {
+  float: left;
+}
+
+.next {
+  float: right;
+}
+
+.center {
+  float: left;
+  padding: 0 0 0 160px;
+}
+
+/* ---------------------- =SHOPPING CART PRODUCT*/
+	
+.product {
+   background-color:#FFFFFF;
+   width: 606px;
+   height:100%;
+   padding:0 0 0 0;
+   margin:0 0 0 0;
+}	
+.product a{
+   color: #654143;
+ }
+
+.product p{
+   margin:0 0 0 0;
+   padding: 0 0 0 0;
+ }
+ 
+.productinfo {
+   display:block;
+   float:left;
+   width: 350px;
+}
+.productinfo p{
+   font-family: arial;  
+   font-size: 14px;
+   color: #64684d;
+   padding:2px 10px 10px 30px;
+}
+.productinfo  img{
+   padding: 0 0 0 0;
+   margin: 0 0 0 0;
+
+}
+.mainbottom {
+   float: right;
+   position:relative;
+   width:584px;
+   margin: -24px 25px 0 0;
+   padding: 0 0 0 0;
+}
+.productlink {
+   float: right;
+   position:relative;
+   width:254px;
+   margin: -60px 40px 0 0;
+   padding: 0 0 0 0;
+}
+.producttitle {
+   padding:0 10px 0 13px;
+   font-weight: bold;
+   font-size: 24px;
+}
+
+.productright {
+   display:block;
+   float:left;
+   width: 250px;
+}
+.productright p{
+   font-family: arial;  
+   font-size: 15px;
+   text-align: center;
+   color: #64684d;
+   padding:20px 10px 10px 10px;
+   }
+   
+/* ---------------------- =ABOUT US*/
+.aboutus {
+   background-color:#FFFFFF;
+   width: 96%;
+   height:100%;
+   padding:0 0 0 0;
+   margin:0 20px 0 20px;
+}	
+
+/* ---------------------- =CONTACT US*/
+
+/* ---------------------- =GALLERY */
+
+.gallerytitle{
+    background: url('../images/subpage_content_title.png') 0 0 no-repeat; 
+	width:878px;
+	float:left;
+	margin:0px 0px 0px 0px;
+	height:79px;   
+	padding-left: 20px;
+	padding-top: 15px;
+}
+#gallery-wrap {
+    float: left ;
+	width: 596px;
+	padding: 0px 0px 0px 20px;
+	margin: 5px 0px 0px 24px;
+	background-color: #fff;
+}
+#gallery-wrap img{
+    margin: 0 0 0 -35px;
+}
+
+
+.galleryitem {
+   background-color:#FFFFFF;
+   width: 180px;
+   border-style:solid;
+   border-width:1px;
+   border-color: #efe4ca;
+   padding:0 0 0 0px;
+   margin:6px 4px 6px 4px;
+   float: left;
+  }
+/* ---------------------- =BASKETS*/
+.materials {
+   padding:0 5px 0 90px;
+   color: #603d3f;
+   font-family: arial;
+   font-size: 1em;
+}
+
+/* ---------------------- =CSSAWARDS*/
+#cssawards {
+    background: url('../images/thecssawards_mention.png') 0 0 no-repeat; 
+	position:relative;
+    float: right;
+	width: 115px;
+	height:115px;
+	padding: 0px 0px 0px 0px;
+	margin: -2px -8px 0px 0px;
+}
+
+/* ---------------------- =404PAGE*/
+#missing  a{
+    background-image: url('../images/404_sheldonfarmbaskets_bg2.png');
+	width: 600px;
+	height: 557px;
+	margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+	display: block;
+    text-decoration: none;
+    padding-top:0px; 
+
+}
+
+#missing a span {
+  visibility: hidden;
+}
+
+#homelink {
+	display: block;
+	}
+	
+#error p {
+	font-size: 1.2em;
+	line-height: 1.4em;
+	color: #661817;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	padding: 0 10px 0 25px;
+
+}
+#error a {
+	color: #ffffff;
+	font-weight: bold;
+}
+
+#error a:hover {
+	color: #661817;
+}
+
+/* ---------------------- =COMMENTING */
+.js-kit-comments img{
+   padding:0 0 0 0px;
+}
+
+
+/* ---------------------- =FORMS */
+/* ---------------------- =LINKS */
+/* ---------------------- =MISC*/
+
+

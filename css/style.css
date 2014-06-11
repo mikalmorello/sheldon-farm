@@ -1,0 +1,65 @@
+/** {
+	margin: 0;
+	padding: 0;
+}*/
+
+
+#contact-area p {
+	font-size: 1.1em;
+	margin-bottom: 15px;
+	width: 590px;
+}
+
+#page-wrap {
+    float: left ;
+	width: 590px;
+	padding: 0px 0px 0px 20px;
+	margin: 5px 0px 0px 20px;
+	min-height: 800px;
+	height: auto !important;
+	height: 800px;
+	background-color: #fff;
+}
+#page-wrap img{
+    margin: 0 0 0 -30px;
+}
+
+#contact-area {
+	width: 590px;
+	margin-top: 10px;
+	color: #654143;
+	font-weight: bold;
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 350px;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.1em;
+	margin-left: 15px;
+	border: 2px solid #ccc;
+}
+
+#contact-area textarea {
+	height: 90px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px solid #900;
+}
+
+#contact-area input.submit-button {
+	width: 100px;
+	float: right;
+	margin: 0 120px 0 0;
+}
+
+td.left {
+	width: 80px;
+	text-align: left;
+	font-size: 1.1em;
+}
+
+#catpcha-area {
+	margin-left: 300px;
+}

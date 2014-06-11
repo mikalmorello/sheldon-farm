@@ -1,0 +1,33 @@
+
+
+ol#toc {
+	height: 63px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ol#toc a {
+	background: url(tabs.png) 100% 100;
+	float: left;
+	line-height: 63px;
+	outline: none;
+	padding-right: 99px;
+	text-decoration: none;
+}
+
+ol#toc li.current {
+	background-position: 0 -63px;
+}
+
+ol#toc li.current a {
+	background-position: 100% -63px;
+	font-weight: bold;
+}
+
+ol#toc li {
+	background:  url(tabs.png);
+	float: left;
+	margin: 0 1px 0 0;
+	padding-left: 1px;
+}
