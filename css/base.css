@@ -15,7 +15,7 @@ body {
 }
 .bg{
     position: relative;
-	background-image: url('../images/background_wood_smalllight2.jpg');
+	background-image: url('../images/background_wood_smalllight3.jpg');
 	background-repeat:no-repeat;
 	background-position: top; 
 	top: -7px;
@@ -313,6 +313,12 @@ ol#toc .tab {
 	line-height: 100px;
 	outline: none;
 	text-decoration: none;
+	text-indent: 60px;
+}
+
+ol#toc li.tab.current a.tab {
+	background-position: 100% -63px ;
+	line-height: 65px;
 	text-indent: 60px;
 }
 	
